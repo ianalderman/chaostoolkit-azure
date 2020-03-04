@@ -2,8 +2,6 @@ import pytest
 from chaosazure import __get_cloud_env_by_name, init_client,\
     init_resource_graph_client
 from chaoslib.exceptions import InterruptExecution    
-from azure.mgmt.compute import ComputeManagementClient
-from azure.mgmt.resourcegraph import ResourceGraphClient
 from logzero import logger
 from unittest.mock import MagicMock, patch, ANY
 from msrestazure.azure_cloud import AZURE_PUBLIC_CLOUD, \
@@ -16,9 +14,9 @@ CONFIG = {
 }
 
 SECRETS = {
-    "client_id": "8d997de9-9daf-43a1-98c3-04f91a64b62f",
-    "client_secret": "oIAznMsOFRazS/S603EF30oXS7mivghDUQd14qjOotI=",
-    "tenant_id": "9652d7c2-1ccf-4940-8151-4a92ss474ed0"
+    "client_id": "***REMOVED***",
+    "client_secret": "***REMOVED***",
+    "tenant_id": "***REMOVED***"
 }
 
 SECRETS_CHINA = {
