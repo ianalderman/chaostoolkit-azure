@@ -17,8 +17,8 @@ from chaosazure.auth import auth
 from chaosazure.common.config import load_configuration, load_secrets
 
 __all__ = [
-    "discover", "__version__","init_compute_management_client",
-    "init_website_management_client","init_resource_graph_client"
+    "discover", "__version__", "init_compute_management_client",
+    "init_website_management_client", "init_resource_graph_client"
 ]
 __version__ = '0.8.3'
 
